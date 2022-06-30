@@ -22,12 +22,16 @@
                             <li class=" font-bold pr-2">+2125224433200 / +2125224433200<br>
                                 <p class="flex justify-end font-medium"> contact@immo-maroc.com</p>
                             </li>
-                            <li class=""><img src="assets/icons/phone.png" width="30px" alt=""></li>
+                            <li class="">
+                                <img src="assets/icons/mobile.svg" width="25px" alt="" class="">
+                            </li>
                         </ul>
                     </li>
                     <div class=" border-r-2 border-gray-300 h-10"></div>
                     <li class="">
-                        <img src="assets/icons/whatsapp.png" width="25px" alt="">
+                        <a href="">
+                            <img src="assets/icons/whats.svg" width="25px" alt="" class="">
+                        </a>
                     </li>
 
                     <div class=" border-r-2 border-gray-300 h-10"></div>
@@ -39,8 +43,15 @@
                         </ul>
                     </li>
                     <div class=" border-r-2 border-gray-300 h-10"></div>
-                    <li class="flex">
-                        <img src="assets/icons/heart.svg" width="25px" alt="" class="">
+                    <li class="flex ">
+                        <a href="">
+                            <div class="relative w-full h-full">
+                                <img class="" src="assets/icons/heart.svg" width="30px" alt="" class="">
+                                <div class="w-5 h-5 bg-black absolute top-0 right-0 -mt-2 -mr-3 rounded-full flex justify-center items-center">
+                                    <p class="text-sm text-white">0</p>
+                                </div>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -49,21 +60,21 @@
             <div class=" flex place-content-center mt-2">
 
                 <ul class="flex font-bold gap-x-8 text-sm">
-                    <li>Immobilier marrakech</li>
-                    <li>Vente villa de luxe</li>
-                    <li>immobilier prestige marrakech</li>
-                    <li>agence immobilier maroc</li>
-                    <li>Vente Appartement De Luxe Marrakech</li>
+                    <li><a href="">Immobilier marrakech</a></li>
+                    <li><a href="">Vente villa de luxe</a></li>
+                    <li><a href="">immobilier prestige marrakech</a></li>
+                    <li><a href="">agence immobilier maroc</a></li>
+                    <li><a href="">Vente Appartement De Luxe Marrakech</a></li>
                 </ul>
             </div>
             <div class="flex place-content-center mt-5">
                 <ul class="flex font-extrabold gap-x-20 text-base">
-                    <li>Accueil</li>
-                    <li>Notre agence</li>
-                    <li>Vender/Louer</li>
-                    <li>Newsletter</li>
-                    <li>Alerte e-mail</li>
-                    <li>Contact</li>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Notre agence</a></li>
+                    <li><a href="">Vender/Louer</a></li>
+                    <li><a href="">Newsletter</a></li>
+                    <li><a href="">Alerte e-mail</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
             </div>
         </div><br>
@@ -110,8 +121,8 @@
                     <select name="" id="" value="Type de bien" class="py-3 h-fit border-gray-300 text-[#B99A6E] font-bold border-2 w-[20%] text-center">
                         <option value="selected"> Genre </option>
                     </select>
-                    <div class="py-3 h-fit bg-[#B99A6E] font-bold  w-[20%] text-center">
-                        <input type="submit" value="RECHERCHER" class="text-white font-bold ">
+                    <div class="py-3 h-fit bg-[#B99A6E] font-bold  w-[20%] text-center cursor-pointer">
+                        <input type="submit" value="RECHERCHER" class="text-white font-bold cursor-pointer">
                     </div>
                 </div>
             </div>
@@ -122,7 +133,9 @@
             </div>
             <div class="flex w-full justify-between h-[55%] px-10">
                 <div class="w-[5%] h-full flex justify-center items-center">
-                    <div class="h-16 w-16 bg-white rounded-full border-2 flex justify-center items-center"><h1><</h1></div>
+                    <div class="h-16 w-16 bg-white rounded-full border-2 flex justify-center items-center cursor-pointer">
+                        <img class="cursor-pointer" src="assets/icons/left.svg" width="10px" alt="">
+                    </div>
                 </div>
                 <div class="w-[90%] grid grid-cols-4 gap-x-16">
                     <div class="drop-shadow-[0_0px_20px_rgba(0,0,0,0.10)] bg-white h-full">
@@ -133,27 +146,38 @@
                             <h3 class="text-xl font-bold text-[#B99A6E]">129,390 $/1,400,000 Dh</h3>
                             <h1 class="text-3xl font-bold">Marocain épuré</h1>
                             <p class="">appartement 2 chambres 91 m2 a vendre à Marrakech</p>
-                            <div class="flex justify-between items-center">
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span> 91 m</div>
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span>6 p</div>
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span>2 Ch</div>
+                            <div class="flex justify-between items-center m-3">
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/space.svg" width="30px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
+                                <div class=" border-r-2 border-gray-300 h-8"></div>
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/sofa.svg" width="30px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
+                                <div class=" border-r-2 border-gray-300 h-8"></div>
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/bed.svg" width="35px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
                             </div>
                         </div>
                         <div class="flex justify-center gap-x-8 items-center h-[15%] w-full border-t-2">
                             <div>
-                                <img src="assets/icons/tel.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/tel.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                             <div>
-                                <img src="assets/icons/mail.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/mail.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                             <div>
-                                <img src="assets/icons/heart.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/heart.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -165,27 +189,38 @@
                             <h3 class="text-xl font-bold text-[#B99A6E]">129,390 $/1,400,000 Dh</h3>
                             <h1 class="text-3xl font-bold">Marocain épuré</h1>
                             <p class="">appartement 2 chambres 91 m2 a vendre à Marrakech</p>
-                            <div class="flex justify-between items-center">
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span> 91 m</div>
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span>6 p</div>
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span>2 Ch</div>
+                            <div class="flex justify-between items-center m-3">
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/space.svg" width="30px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
+                                <div class=" border-r-2 border-gray-300 h-8"></div>
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/sofa.svg" width="30px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
+                                <div class=" border-r-2 border-gray-300 h-8"></div>
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/bed.svg" width="35px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
                             </div>
                         </div>
                         <div class="flex justify-center gap-x-8 items-center h-[15%] w-full border-t-2">
                             <div>
-                                <img src="assets/icons/tel.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/tel.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                             <div>
-                                <img src="assets/icons/mail.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/mail.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                             <div>
-                                <img src="assets/icons/heart.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/heart.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -197,27 +232,38 @@
                             <h3 class="text-xl font-bold text-[#B99A6E]">129,390 $/1,400,000 Dh</h3>
                             <h1 class="text-3xl font-bold">Marocain épuré</h1>
                             <p class="">appartement 2 chambres 91 m2 a vendre à Marrakech</p>
-                            <div class="flex justify-between items-center">
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span> 91 m</div>
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span>6 p</div>
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span>2 Ch</div>
+                            <div class="flex justify-between items-center m-3">
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/space.svg" width="30px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
+                                <div class=" border-r-2 border-gray-300 h-8"></div>
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/sofa.svg" width="30px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
+                                <div class=" border-r-2 border-gray-300 h-8"></div>
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/bed.svg" width="35px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
                             </div>
                         </div>
                         <div class="flex justify-center gap-x-8 items-center h-[15%] w-full border-t-2">
                             <div>
-                                <img src="assets/icons/tel.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/tel.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                             <div>
-                                <img src="assets/icons/mail.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/mail.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                             <div>
-                                <img src="assets/icons/heart.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/heart.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -229,37 +275,50 @@
                             <h3 class="text-xl font-bold text-[#B99A6E]">129,390 $/1,400,000 Dh</h3>
                             <h1 class="text-3xl font-bold">Marocain épuré</h1>
                             <p class="">appartement 2 chambres 91 m2 a vendre à Marrakech</p>
-                            <div class="flex justify-between items-center">
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span> 91 m</div>
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span>6 p</div>
-                                <div class=" text-[#B99A6E]"><span>
-
-                                </span>2 Ch</div>
+                            <div class="flex justify-between items-center m-3">
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/space.svg" width="30px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
+                                <div class=" border-r-2 border-gray-300 h-8"></div>
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/sofa.svg" width="30px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
+                                <div class=" border-r-2 border-gray-300 h-8"></div>
+                                <div class="flex gap-x-2 text-[#B99A6E]">
+                                    <img src="assets/icons/bed.svg" width="35px" alt="" class="">
+                                    <span>6 p</span>
+                                </div>
                             </div>
                         </div>
                         <div class="flex justify-center gap-x-8 items-center h-[15%] w-full border-t-2">
                             <div>
-                                <img src="assets/icons/tel.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/tel.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                             <div>
-                                <img src="assets/icons/mail.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/mail.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                             <div>
-                                <img src="assets/icons/heart.svg" width="30px" alt="" class="">
+                                <a href="">
+                                    <img src="assets/icons/heart.svg" width="30px" alt="" class="">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-[5%] h-full flex justify-center items-center">
-                    <div class="h-16 w-16 bg-white rounded-full border-2 flex justify-center items-center"><h1>></h1></div>
+                    <div class="h-16 w-16 bg-white rounded-full border-2 flex justify-center items-center cursor-pointer">
+                        <img class="cursor-pointer" src="assets/icons/right.svg" width="10px" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="border-4 border-black px-20 py-3 flex item-center text-center">
-                <h1 class="text-xl font-bold text-black">AFFICHER PLUS DE NOUVEAUTES</h1>
+            <div class="border-4 border-black px-20 py-3 flex item-center text-center cursor-pointer">
+                <h1 class="text-xl font-bold text-black cursor-pointer">AFFICHER PLUS DE NOUVEAUTES</h1>
             </div>
         </div>
     </div>

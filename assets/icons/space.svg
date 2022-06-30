@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="471.701" height="350.976" viewBox="0 0 471.701 350.976">
+  <g id="Groupe_15" data-name="Groupe 15" transform="translate(1473 -1833)">
+    <g id="Union_1" data-name="Union 1" transform="translate(-1473 1833)" fill="none">
+      <path d="M125.7,350.976V243.94H0V0H471.7V169.265H406.982v181.71Z" stroke="none"/>
+      <path d="M 380.9822387695312 324.9756469726562 L 380.9822387695312 143.2654724121094 L 445.7013244628906 143.2654724121094 L 445.7013244628906 25.99997520446777 L 25.99998092651367 25.99997520446777 L 25.99998092651367 217.9402313232422 L 151.7034759521484 217.9402313232422 L 151.7034759521484 324.9756469726562 L 380.9822387695312 324.9756469726562 M 406.9822387695312 350.9756469726562 L 125.703483581543 350.9756469726562 L 125.703483581543 243.9402313232422 L -1.969401091628242e-05 243.9402313232422 L -1.969401091628242e-05 -2.510579361114651e-05 L 471.7013244628906 -2.510579361114651e-05 L 471.7013244628906 169.2654724121094 L 406.9822387695312 169.2654724121094 L 406.9822387695312 350.9756469726562 Z" stroke="none" fill="#ae945d"/>
+    </g>
+    <line id="Ligne_1" data-name="Ligne 1" x2="64.719" transform="translate(-1337.339 2063.25)" fill="none" stroke="#ae945d" stroke-width="26"/>
+    <line id="Ligne_2" data-name="Ligne 2" y2="59.74" transform="translate(-1272.621 1846.691)" fill="none" stroke="#ae945d" stroke-width="26"/>
+    <line id="Ligne_3" data-name="Ligne 3" y2="125.704" transform="translate(-1272.621 1954.97)" fill="none" stroke="#ae945d" stroke-width="26"/>
+    <line id="Ligne_4" data-name="Ligne 4" x1="82.143" transform="translate(-1275.732 1991.063)" fill="none" stroke="#ae945d" stroke-width="26"/>
+    <line id="Ligne_5" data-name="Ligne 5" x1="82.143" transform="translate(-1131.359 1991.063)" fill="none" stroke="#ae945d" stroke-width="26"/>
+  </g>
+</svg>
